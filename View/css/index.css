@@ -1,0 +1,175 @@
+  @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      text-decoration: none;
+  }
+  
+body{
+    background-image: linear-gradient(120deg, #F83A66, #FE6E4B);
+}
+
+  header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 100px;
+      z-index: 100;
+  }
+
+  header .logo img {
+      max-width: 80px;
+  }
+
+  .navigation {
+      display: flex;
+  }
+
+  .navigation li {
+      list-style: none;
+      margin: 0 10px;
+  }
+
+  .navigation li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      letter-spacing: 1px;
+  }
+
+  .navigation li:hover a {
+      color: rgb(0, 0, 0);
+  }
+
+  .search {
+      position: relative;
+      width: 100%;
+      height: 40px;
+      
+  }
+
+  .search input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      color: #fff;
+      background-color: transparent;
+      border: 1px solid rgba(255, 255, 2555, 0.5);
+      outline: none;
+      border-radius: 4px;
+      padding: 0 10px 0 45px;
+      backdrop-filter: blur(10px);
+  }
+
+  .search input::placeholder {
+      color: #fff;
+  }
+
+  .search .fa-search {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      padding-right: 10px;
+      color: #fff;
+      border-right: 1px solid #fff;
+  }
+
+  .btn {
+      position: relative;
+      width: 80px;
+      height: 40px;
+      color: #fff;
+      background-color: transparent;
+      border: 1px solid rgba(255, 255, 2555, 0.5);
+      border-radius: 0px 4px 4px 0px;
+      backdrop-filter: blur(10px);
+      cursor: pointer;
+      float: right;
+  }
+
+
+  button:hover {
+      opacity: 0.9;
+  }
+
+  button:active {
+      float: right;
+      color: black;
+      border: 2px solid rgb(255, 255, 255);
+      background-color: rgb(255, 255, 255);
+  }
+
+  .container {
+      position: relative;
+      width: 100%;
+      min-height: 100vh;
+      padding: 0 100px;
+
+      background-image: linear-gradient(120deg, #F83A66, #FE6E4B);
+  }
+
+  .content {
+      position: absolute;
+      top: 160px;
+      transform: translateX(133%);
+  }
+
+  .btn {
+      border-radius: 4px;
+  }
+
+  .listaAlfabetica ul li {
+      display: inline-block;
+      padding-right: 4px;
+      padding-top: 15px;
+  }
+
+  a:link {
+      color: #fff;
+  }
+
+  a:hover {
+      color: #000000;
+  }
+
+  .cadastro{
+    margin-left: -40px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 360px;
+    height: 550px;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 2555, 0.5);
+    outline: none;
+    border-radius: 4px;
+    padding: 30px;
+}
+
+.inputcad{
+    width: 300px;
+    border-radius: 5px;
+}
+
+.btncad{
+    margin-left: 110px;
+    margin-top: 10px;
+
+}
+
+#floatingTextarea2 textarea {
+    resize: none;
+    height: 300px;
+}

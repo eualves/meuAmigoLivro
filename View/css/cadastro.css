@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    z-index: 100;
+}
+
+header .logo img {
+    max-width: 80px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.navigation li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.navigation li:hover a {
+    color: rgb(0, 0, 0);
+}
+
+.search {
+    position: relative;
+    width: 20%;
+    height: 40px;
+    
+}
+.search input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 2555, 0.5);
+    outline: none;
+    border-radius: 4px;
+    padding: 0 10px 0 45px;
+    backdrop-filter: blur(10px);
+}
+
+.search input::placeholder {
+    color: #fff;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    padding-right: 10px;
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+
+img{
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.container {
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+   }
+   
+   .login-form{
+       height: 410px;
+       width: 320px;
+       border-radius: 10px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       background: rgba(0,0,0,0.1);
+       box-shadow: 0 0 10px rgb(255, 255, 255,0.8);
+       color: #fff;
+       padding-top: 60px;
+   }
+
+   .div-select {    
+       width:320px;     
+       overflow:hidden; 
+    } 
+    
+    .div-select select {      
+        background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-select.gif) no-repeat #354880;       
+        background: transparent;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+        outline: none;
+        padding: 10px;
+        font-size: 13px;
+        border-radius: 30px;
+    
+        transition: box-shadow 0.5s ease;
+
+        background-position: 205px center;      
+        width: 200px;
+        height:48px; /* altura do select, importante para que tenha a mesma altura em todo os navegadores */  
+        padding:13px 20px 13px 12px; /* Configurações de padding para posicionar o texto no campo */  
+        color:#fff; /* Cor da Fonte */      
+        text-indent: 0.01px; /* Remove seta padrão do FireFox */      
+        text-overflow: "";  /* Remove seta padrão do FireFox */            
+    }
+    
+   input{
+       width: 200px;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       background: transparent;
+       outline: none;
+       padding: 10px;
+       font-size: 13px;
+       border-radius: 30px;
+       box-shadow: 0 0 4px #fff;
+       transition: box-shadow 0.5s ease;
+   }
+
+   .btn{
+        padding: 5px 20px;
+        margin-top: 30px;
+        background: transparent;
+        border-radius: 30px;
+        box-shadow: 0 0 4px #fff;
+        cursor: pointer;
+   }
+
+   input[placeholder]:focus{
+       color:#fff;
+   }
+
+   input:focus, .btn:hover{
+    box-shadow: 0 0 10px #fff;
+   }
+
+   @media (max-width: 600px) {
+       img{
+           width: 650px;
+       }
+   }
+   

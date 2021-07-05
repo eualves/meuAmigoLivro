@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="20x20" href="img/icon.png">
+    <link rel="stylesheet" href="css/index.css">
     <title>Index</title>
 </head>
 
 <body>
-
     <header>
         <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
         <ul class="navigation">
@@ -20,20 +20,17 @@
             <li><a href="#">Revista</a></li>
             <li><a href="#">Quadrinhos</a></li>
         </ul>
-
-        <button class="btn">Login</button>
+        <a href="#"><button class="btn">Login</button>
     </header>
 
-    <div class="banner">
-        <!-- <img src="" class="bg" alt="banner"> -->
-        <div class="content">
+    <div class="container">
 
+        <div class="content">
             <div class="search">
                 <input type="text" placeholder="Search">
                 <button class="btn">Procurar</button>
                 <i class="fa fa-search" aria-hidden="true"></i>
             </div>
-
 
             <div class="listaAlfabetica">
                 <ul>
@@ -63,10 +60,10 @@
                     <li><a href="#">W</a></li>
                     <li><a href="#">Y</a></li>
                     <li><a href="#">Z</a></li>
-
                 </ul>
             </div>
         </div>
+
     </div>
 </body>
 
